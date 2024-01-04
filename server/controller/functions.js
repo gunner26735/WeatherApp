@@ -66,7 +66,6 @@ async function fetchTemperature(lat,long){
         },
     };
     
-    console.log("\nFIRST");
     // `weatherData` now contains a simple structure with arrays for datetime and weather data
     for (let i = 0; i < weatherData.hourly.time.length; i++) {
         // console.log(
