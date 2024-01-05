@@ -22,6 +22,16 @@
 npm install
 ```
 
+## Instructions
+* Go the path "node_modules/openmeteo/lib/index.js".
+* And add this command at top of index.js file
+
+```sh
+const fetch = require("node-fetch");
+```
+
+* Note: <strong>this is a problem of open-meteo library <strong>
+
 ## Usage
 
 ```sh
